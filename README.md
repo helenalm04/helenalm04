@@ -6,8 +6,6 @@ space to organise and share the things I have built, across numerical analysis,
 optimisation, probability, statistics and machine learning. You are very welcome to
 have a look at anything here.
 
-Native Catalan and Spanish speaker, based in London.
-
 ---
 
 ## 📖 Longer projects
