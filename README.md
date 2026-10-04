@@ -12,6 +12,12 @@ have a look at anything here.
 
 **Machine learning**
 
+- **[eval-measurement](https://github.com/helenalm04/eval-measurement)**: how far
+  you can trust an automatic score for LLM answers, and how many human ratings you
+  actually need. I built a Catalan benchmark and a rule-based scoring harness, rated
+  model answers myself as a native speaker, and combined the two with
+  prediction-powered inference and a Bayesian model with my own Gibbs sampler.
+
 - **[vae-gpt-pytorch](https://github.com/helenalm04/vae-gpt-pytorch)**: a β-VAE
   with convolutional variants and sliced Wasserstein evaluation, and a decoder-only
   GPT transformer, both built from scratch in PyTorch.
@@ -47,9 +53,6 @@ have a look at anything here.
 
 ## 🚧 Currently working on
 
-- Selecting fine-tuning data by mining a base model's own failures.
-- Validating an LLM judge against native-speaker ratings with weighted Cohen's κ.
-- Contributing the Catalan benchmark upstream as a task in `lm-evaluation-harness`.
 - Publishing the coursework projects listed above.
 - Reading on preference optimisation and on evaluation design for generative models.
 
