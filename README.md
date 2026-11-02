@@ -14,14 +14,15 @@ have a look at anything here.
 
 - **[msc-thesis-hla-mutation](https://github.com/helenalm04/msc-thesis-hla-mutation)**:
   *Mutational Path Sampling on HLA Presentation Landscapes* (Imperial College London,
-  2026, supervised by Dr Barbara Bravi and Yinfei Yang) — how a peptide can
-  mutate out of presentation by one HLA class I allele and into presentation by
-  another. I built an MCMC sampler over mutational paths, combining Gibbs and
-  Metropolis–Hastings moves with an annealed burn-in on restricted Boltzmann machine
-  energy landscapes, and validated it against two exact dynamic-programming solvers
-  using split-R̂ and effective sample size as convergence diagnostics. The
-  question was whether information-theoretic distances between two fitted models
-  predict how hard the transition between them is; they do not.
+  supervised by Dr Barbara Bravi and Yinfei Yang). How a peptide moves between the
+  sets of sequences that two HLA class I alleles present, treating the move as a
+  series of single mutations, which is one route by which a pathogen escapes immune
+  recognition. The path-sampling theory I inherited scores a trajectory under a
+  single model and has no term for a route running between two alleles, so I supplied
+  one, sampled routes with Gibbs and Metropolis-Hastings moves on restricted Boltzmann
+  machine energy landscapes, and validated the sampler against two exact
+  dynamic-programming solvers. I also extended the mean-field solution of the path
+  measure to these scores, and measured how much of it survives at nine positions.
 
 **Machine learning**
 
