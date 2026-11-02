@@ -10,6 +10,19 @@ have a look at anything here.
 
 ## 📖 Longer projects
 
+**MSc thesis**
+
+- **[msc-thesis-hla-mutation](https://github.com/helenalm04/msc-thesis-hla-mutation)**:
+  *Mutational Path Sampling on HLA Presentation Landscapes* (Imperial College London,
+  2026, supervised by Dr Barbara Bravi and Yinfei Yang) — how a peptide can
+  mutate out of presentation by one HLA class I allele and into presentation by
+  another. I built an MCMC sampler over mutational paths, combining Gibbs and
+  Metropolis–Hastings moves with an annealed burn-in on restricted Boltzmann machine
+  energy landscapes, and validated it against two exact dynamic-programming solvers
+  using split-R̂ and effective sample size as convergence diagnostics. The
+  question was whether information-theoretic distances between two fitted models
+  predict how hard the transition between them is; they do not.
+
 **Machine learning**
 
 - **[eval-measurement](https://github.com/helenalm04/eval-measurement)**: how far
